@@ -1,1 +1,124 @@
+@font-face {
+    font-family: "font-1";
+    src: url("../fonts/intreb.ttf");
+}
 
+@font-face {
+    font-family: "font-2";
+    src: url("../fonts/gelica-regular.otf");
+}
+@font-face {
+    font-family: "font-3";
+    src: url("/fonts/Assistant-VariableFont_wght.ttf");
+}
+
+html{
+    background-color: #f3e9d7;
+    
+}
+.site_photo{
+    max-width: 50%;
+    max-height: 50%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+.photo img{
+   max-width: 100%;
+   align-content: center;
+}
+.nav-bar_title{
+    text-align: center;
+    font-size: 10pt;
+    background-color: rgb(237, 76, 35);
+    color: white;
+    font-family: "font-1";
+    margin-bottom: 0;
+    padding: 0 0;
+}
+.nav-bar_nav{
+    list-style: none;
+    background-color: #f3e9d7;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.nav-bar li{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12pt;
+    font-family: "font-2";
+    color:rgb(237, 76, 35);
+    border-right: 1pt solid rgb(237, 76, 35);
+    padding-right: 30px;
+}
+.secondary-nav li{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12pt;
+    font-family: "font-2";
+    color:rgb(237, 76, 35);
+}
+.secondary-nav img{
+    max-width: 5%;
+    max-height: 5%;
+}
+.header-container{
+    position: relative;
+}
+.header-container img{
+    max-width: 90%;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 3em;
+}
+.header_title{
+    font-family: serif;
+    font-style: italic;
+    font-size: 50pt;
+    padding-left: 50px;
+    color: #f3e9d7;
+    position: absolute;
+    top: 8px;
+    left: 28px;
+}
+.header_body{
+    font-family: "font-2";
+    font-size: 15pt;
+    color: #f3e9d7;
+    padding-left: 50px;
+    position: absolute;
+    top: 11em;
+    left: 28px;
+    line-height: 25pt;
+    
+}
+.header_button_coffee {
+    font-family: "font-1";
+    font-size: 8pt;
+    color: #f3e9d7;
+    letter-spacing: 3pt;
+    padding-left: 50px;
+    display: inline;
+    position: absolute;
+    top: 30em;
+    left: 28px;
+}
+.header_button_sub{
+    font-family: "font-1";
+    font-size: 8pt;
+    color: #f3e9d7;
+    letter-spacing: 3pt;
+    padding-left: 50px;
+    display: inline;
+    position: absolute;
+    top: 30em;
+    left: 22em;
+}

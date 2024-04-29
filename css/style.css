@@ -1,15 +1,15 @@
 @font-face {
     font-family: "font-1";
-    src: url("../fonts/intreb.ttf");
+    src: url("/font/intreb.ttf");
 }
 
 @font-face {
     font-family: "font-2";
-    src: url("../fonts/gelica-regular.otf");
+    src: url("/font/gelica-regular.otf");
 }
 @font-face {
     font-family: "font-3";
-    src: url("/fonts/Assistant-VariableFont_wght.ttf");
+    src: url("/font/Assistant-VariableFont_wght.ttf");
 }
 
 html{
@@ -110,6 +110,7 @@ h1{
     position: absolute;
     top: 30em;
     left: 28px;
+    text-decoration: underline;
 }
 .header_button_sub{
     font-family: "font-1";
@@ -120,5 +121,104 @@ h1{
     display: inline;
     position: absolute;
     top: 30em;
-    left: 22em;
+    left: 20em;
+    text-decoration: underline;
+}
+.body-one {
+    text-align: center;
+}
+.body_title {
+    font-family: "font-1";
+    font-size: 33pt;
+    font-style: italic;
+    color: rgb(237, 76, 35);
+}
+.body_paragraph {
+    font-family: "font-1";
+    font-size: 30pt;
+    letter-spacing: 1pt;
+    color: rgb(237, 76, 35);
+}
+h2 .header_button_shop{
+    color: rgb(237, 76, 35);
+    display: inline;
+    font-family: "font-2";
+    font-style: bold;
+    text-decoration: underline;
+}
+.scrolling-container {
+    padding-top: 5em;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #E5D9C3;
+}
+.scrolling-wrapper{
+    display: inline-block;
+}
+.scrolling-wrapper img{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+.item{
+    color:rgb(237, 76, 35);
+    text-align: center;
+}
+.item h3{
+    font-family: "font-2";
+    margin: 0;
+    padding-bottom: 2em;
+}
+.item h2{
+    font-family: "font-1";
+    margin: 0;
+}
+.good_coffee{
+    width: auto;
+    height: auto;
+}
+.roasted-container{
+    position: relative;
+}
+.roasted-container img{
+    max-width: 100%;
+}
+.roasted_title{
+    font-family: serif;
+    position: absolute;
+    font-size: 40pt;
+    padding-left: 50px;
+    color: #f3e9d7;
+    top: 8px;
+    left: 28px;
+}
+.roaster_button_coffee {
+    font-family: "font-1";
+    font-size: 10pt;
+    color: #f3e9d7;
+    letter-spacing: 3pt;
+    padding-left: 50px;
+    display: inline;
+    position: absolute;
+    top: 14em;
+    left: 28px;
+    text-decoration: underline solid #f3e9d7;
+}
+.featured{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #FFD272;
+}
+.logos{
+    display: inline-block;
+}
+.logos img{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    padding: 2em;
 }

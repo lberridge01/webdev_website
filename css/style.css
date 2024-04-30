@@ -14,6 +14,7 @@
 
 html{
     background-color: #f3e9d7;
+    margin: 10px;
     
 }
 .site_photo{
@@ -74,7 +75,7 @@ h1{
     position: relative;
 }
 .header-container img{
-    max-width: 90%;
+    max-width: 95%;
     padding-top: 2em;
     padding-right: 2em;
     padding-left: 3em;
@@ -221,4 +222,224 @@ h2 .header_button_shop{
     height: auto;
     margin-right: 10px;
     padding: 2em;
+}
+.reviews, .reviews p{
+    background-color: #9A4735;
+    color:#f3e9d7;
+    text-align: center;
+    display: inline;
+}
+.reviews h1{
+    color: #f3e9d7;
+    font-size: 20pt;
+}
+.reviews-one, .reviews-two, .reviews-three, .reviews-four {
+    background-color: #9A4735;
+    padding: 0rem;
+    margin: 0rem;
+}
+.subscription_options{
+    display: flex;
+}
+.coffee_club{
+    text-align: center;
+    color: rgb(237, 76, 35);
+    display: inline;
+}
+.house_party{
+    display: inline;
+    text-align: center;
+    color: rgb(237, 76, 35);
+}
+.house_party img{
+    max-width: 400px;
+    max-height: 400px;
+    align-items: center;
+}
+.coffee_club img{
+    max-width: 100%;
+}
+.subscription_title{
+    font-size: 18pt;
+    text-align: center;
+}
+.coffee_club_button{
+    text-decoration: underline solid rgb(237, 76, 35);
+}
+.subscription_para{
+    font-size: 8pt;
+    padding-left: 8em;
+    padding-right: 8rem;
+    text-align: center;
+}
+.pods-container{
+    position: relative;
+}
+.pods-container img{
+    max-width: 95%;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 3em;
+}
+.pods{
+    font-family: serif;
+    font-size: 30pt;
+    padding-left: 50px;
+    color: #f3e9d7;
+    position: absolute;
+    top: 1.5em;
+    left: 28px;
+}
+.pods_button_coffee {
+    font-family: "font-1";
+    font-size: 8pt;
+    color: #f3e9d7;
+    letter-spacing: 3pt;
+    padding-left: 50px;
+    display: inline;
+    position: absolute;
+    top: 18em;
+    left: 28px;
+    text-decoration: underline;
+}
+.pods_button_sub{
+    font-family: "font-1";
+    font-size: 8pt;
+    color: #f3e9d7;
+    letter-spacing: 3pt;
+    padding-left: 50px;
+    display: inline;
+    position: absolute;
+    top: 18em;
+    left: 20em;
+    text-decoration: underline;
+}
+.run_container{
+    display: flex;
+    background-color: #FFD272;
+}
+.run_information{
+    display: inline;
+    text-align: center;
+    color: #513B25;
+}
+.run{
+    display: inline;
+}
+.dine_with_us_container{
+    display: flex;
+}
+.breakfast{
+    display: inline;
+    padding: 2em;
+    margin-left: 2em;
+}
+.breakfast_information{
+    display: inline;
+    text-align: center;
+    color: rgb(237, 76, 35);
+    padding-left: 5em;
+    padding-right: 6em;
+    padding-top: 10em;
+}
+.breakfast img{
+    max-width: 400px;
+    max-height: 400px;
+    align-items: center;
+}
+.breakfast_button{
+    text-decoration: underline solid rgb(237, 76, 35);
+    font-weight: bold;
+}
+.newsletter_container{
+    margin-top: 6em;
+}
+.newsletter_container img{
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.newsletter_header{
+    text-align: center;
+    color: rgb(237, 76, 35);
+    font-size: 30pt;
+}
+.newsletter_para {
+    text-align: center;
+    color: rgb(237, 76, 35);
+    font-size: 8pt;
+}
+.subscribe{
+    align-items: center;
+}
+footer h1{
+    color: rgb(237, 76, 35);
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: center;
+    padding-bottom: 3em;
+    background-color: #EFE2CA;
+    margin: auto;
+}
+.footer_container{
+    display: flex;
+    background-color:#EFE2CA;
+    margin: auto;
+}
+.footer_left{
+    display: inline;
+    color: rgb(237, 76, 35);
+    border-right: solid rgb(237, 76, 35);
+    padding: 2em;
+    margin-left: 15em;
+}
+.footer_center{
+    display: inline;
+    color: rgb(237, 76, 35);
+    border-right: solid rgb(237, 76, 35);
+    padding: 2em;
+}
+.footer_right{
+    display: inline;
+    color: rgb(237, 76, 35);
+    border-right: solid rgb(237, 76, 35);
+    padding: 2em;
+    margin-right: 4em;
+}
+.environment_container{
+    display: flex;
+    background-color: #EFE2CA;
+    align-content: center;
+    padding-left: 35em;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+.environment_container img{
+    display: inline;
+    max-width: 3%;
+}
+.environment_container p{
+    display: inline;
+    color: rgb(237, 76, 35)
+}
+.footer_nav_bar{
+    list-style: none;
+    background-color: #EFE2CA;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.footer_nav li{
+    display: inline;
+    font-size: 12pt;
+    font-family: "font-2";
+    color:rgb(237, 76, 35);
+    border-right: 1pt solid rgb(237, 76, 35);
+    padding-right: 20px;
+    background-color: #EFE2CA;
+    margin-top: auto;
 }
